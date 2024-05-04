@@ -1,0 +1,92 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #f2efff;
+  }
+
+ul {
+    list-style-type: none; 
+  }
+
+.HeaderUI ul li {
+  display: inline;
+  padding: 1.5em;
+}
+
+.logoImage {
+    width: 10em;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 1em 12em 2em 2em ;
+}
+
+.advertisement{
+    display: flex;
+    justify-content: space-between;
+}
+
+.awardsImage{
+    width: 8em;
+    margin-right: 1em;
+}
+
+.stampImage {
+    width: 4em;
+    margin-right: 1em;
+}
+
+.ranks{
+    margin-top: 1em;
+}
+
+.rankImage {
+    width: 10em;
+}
+
+.guideSection{
+    width: 16em;
+    height: 6em;
+    border: 2px dashed rgb(115 86 232);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.guideImage{
+    width: 5em;
+}
+
+.guideSpan{
+    text-align: center;
+    font-weight: 600;
+}
+
+.brandNames{
+    white-space: nowrap;
+}
+
+.brands{
+   display: inline-block;
+   animation: 3s slide infinite linear;
+}
+.brands img{
+    margin: 0 2em;
+}
+
+
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+     
+   to {
+    transform: translateX(-100%);
+   }  
+  }
+
+
+  

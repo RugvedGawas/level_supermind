@@ -1,0 +1,56 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #f2efff;
+  }
+
+  .pricebox-outside{
+    margin: 1.5em;
+    width: 22em;
+    height: 5em;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1 rgb(255 255 255 / var(--tw-border-opacity));
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 9px 20px inset, rgba(0, 0, 0, 0.16) 0px 8px 16px;
+    position: relative;
+  }
+
+  .pricebox-inside{
+    width: 21em;
+    height: 4em;
+    background-color: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+
+  }
+
+  .pricebox-inside-popular{
+    width: 21em;
+    height: 4em;
+    background-color: #f9ce47;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+
+  }
+
+.rankImage{
+  width: 15em;
+}
+
+/* .cardsContainer {
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-140em); 
+  }
+} */

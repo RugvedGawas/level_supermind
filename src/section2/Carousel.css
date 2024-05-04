@@ -1,0 +1,23 @@
+/* Custom styles for carousel indicators */
+.carousel-indicators {
+    bottom: 10px; /* Adjust the position of the indicators */
+  }
+  
+  .carousel-indicators li {
+    background-color: #d63838; /* Default color of the indicators */
+    border: 1px solid #333; /* Border around the indicators */
+    border-radius: 50%; /* Make the indicators circular */
+    width: 10px; /* Size of the indicators */
+    height: 10px;
+    margin: 0 5px; /* Spacing between the indicators */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #333; /* Color of the active indicator */
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
